@@ -1,0 +1,26 @@
+".container": {
+	backgroundColor:"white"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: '32dp',
+		fontWeight: 'bold'
+	}
+},
+".individCard" :{
+    backgroundColor :"#FF6700",
+    /*height: "200dp",
+    width:"300dp",*/
+   height: "20%",
+   width:"25%",
+	borderWidth : 6,
+	borderRadius : 20,
+	borderColor : "blue",
+	touchEnabled:true,
+	left: 12,
+	top: 12
+	
+}

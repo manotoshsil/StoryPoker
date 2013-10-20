@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container"  layout="horizontal" horizontalWrap="true" backgroundColor="black">
+		<View  class="individCard" id="zero" onClick="flipFlop" > <Label id="myCard"> 0 </Label> </View>
+		<View  class="individCard" id="half"  onClick="flipFlop" > <Label id="myCard"> 0.5</Label> </View>
+		<View  class="individCard" id="one"  onClick="flipFlop"> <Label id="myCard"> 1</Label> </View>
+		<View  class="individCard" id="two" onClick="flipFlop"> <Label id="myCard"> 2</Label> </View>
+		<View  class="individCard" id="three" onClick="flipFlop"> <Label id="myCard"> 3</Label> </View>
+		<View  class="individCard" id="five" onClick="flipFlop"> <Label id="myCard"> 5</Label> </View>
+		<View  class="individCard" id="eight" onClick="flipFlop"> <Label id="myCard"> 8</Label> </View>
+		<View  class="individCard" id="thirteen" onClick="flipFlop"> <Label id="myCard"> 13</Label> </View>
+		<View  class="individCard" id="twentyonet" onClick="flipFlop"> <Label id="myCard"> 21</Label> </View>
+	</Window>
+</Alloy>
